@@ -1,0 +1,51 @@
+.progressbar {
+  height: 10vh;
+  border: 1px solid rgb(156, 156, 214);
+  width: 40%;
+  background-color: aliceblue;
+}
+.progressbar > div {
+  height: 10vh;
+}
+.divProgress {
+  display: flex;
+  align-items: center;
+}
+
+.divProgress p {
+  margin-right: 5vh;
+}
+
+.donow {
+  margin-left: 5vh;
+}
+
+.all {
+  display: flex;
+}
+
+.left {
+  width: 50%;
+}
+
+.right {
+  width: 50%;
+}
+
+body {
+  width: 90%;
+  margin: auto;
+}
+
+.notDoingTask {
+  display: none;
+}
+
+.tasktimer {
+  display: flex;
+}
+
+.dark {
+  background-color: rgb(51 51 51);
+  color: #fefefe;
+}
